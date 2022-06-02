@@ -1,0 +1,122 @@
+html, body {margin: 0;padding: 0;height: 100%;line-height: 1;font-family:'Montserrat', sans-serif;}
+h1,h2,h3{font-weight: inherit;}
+li {list-style: none;}
+image{vertical-align: top;}
+/*=====================*/
+body{
+    background-image: url(../images/bg3.png);
+    background-size: cover;
+    position: relative;
+       
+}
+[class*="_cont"]{
+    max-width: 1057px;
+    margin: 0 auto;
+}
+.wrapper{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.content *{
+    position: relative;
+}
+.content{
+    flex:1 1 auto;
+    margin: 0 120px;
+    background-image: url(../images/bg4.png);
+    background-size: cover;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+    position: relative;
+    padding:0 50px;
+    
+}
+.header{
+    width: 100%;
+}
+.header_cont{
+    display: flex;
+    min-height: 114px;
+    align-items: center;
+}
+.header-menu{
+    flex:1 1 auto;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+}
+.menu-list{
+     display: flex; 
+}
+.menu-link{
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 1.2;
+    color: #404040;
+    margin: 0 40px 0 0;
+} 
+.button{
+    margin-left:50px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #404040;
+    border-radius: 35px;
+    border: 2px solid #404040;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    height: 50px;
+    width: 160px;
+    align-items: center;
+    transition: all 0.3s ease 0s;
+ }
+ .header-button {
+     display: inline-flex;
+ }
+.button:hover{
+    color: #404040;
+    background-color: #fff;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    .menu-link{
+        margin: 0 30px 0 0;
+    }
+    .menu{
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo_link{
+        margin-left: 120px;
+    }
+    .start-img{
+        display: none;
+    }
+}
+
+@media (min-width: 457px) and (max-width: 767.98px){
+    .menu-link{
+        margin: 0 25px 0 0;
+    }
+    .menu{
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo_link{
+        margin-left: 100px;
+    }
+    .start-img{
+        display: none;
+    }
+}
+
+@media (max-width: 430px){
+    
+}

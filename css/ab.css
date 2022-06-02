@@ -1,0 +1,15 @@
+.text{
+    margin: 30px;
+}
+.text p{
+    text-indent: 20px;
+}
+li{
+    text-decoration:dotted;
+}
+.image{
+    text-align: center;
+}
+.text img{
+    border: 1px solid black;
+}

@@ -1,0 +1,113 @@
+.main-content {
+    text-align: center;
+    width: 300px;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 50%;
+    display: block;
+    flex-wrap: nowrap;
+}
+
+.main-content a {
+    margin: 0 auto;
+}
+
+.avatar {
+    margin-bottom: 30px;
+}
+
+.user-login {
+    margin: 30px auto;
+    border: #00a8ff solid 2px;
+    border-radius: 24px;
+    padding: 14px 10px;
+    width: 200px;
+}
+
+.user-name {
+    margin: 30px auto;
+    text-align: center;
+    border: #00a8ff solid 2px;
+    border-radius: 24px;
+    padding: 14px 10px;
+    width: 200px;
+
+}
+
+main {
+    justify-content: space-between;
+}
+
+.profile-reg {
+    display: flex;
+    width: 300px;
+    margin-bottom: 10px;
+
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn-tertiary {
+    color: #404040;
+    padding: 0;
+    line-height: 40px;
+    font-size: 12px;
+    width: 200px;
+    margin: auto;
+    display: block;
+    border: #00a8ff solid 2px;
+    border-radius: 35px;
+    transition: 0.25s;
+    
+}
+
+.btn-tertiary:hover,
+.example-2 .btn-tertiary:focus {
+    color: #404040;
+    border-color: #e732d8;
+}
+
+.input-file {
+    width: .1px;
+    height: .1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    }
+
+.input-file+.js-labelFile {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+table{
+    margin: 0 auto;
+    padding: 10px;
+    width: auto;
+    border-collapse: collapse;
+}
+td{
+    padding: 15px;
+    border: #404040 1px solid; 
+    text-align: left; 
+}
+th{
+    border: #404040 1px solid;
+    padding: 10px;
+    background-color: #fff;
+}
+.statistic{
+    display:flex;
+    margin: 0 auto;
+}
+.views_l{
+    margin: 20px;
+    text-align: center;
+}
